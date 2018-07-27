@@ -9,7 +9,7 @@ class school
   end
 
   def roster
-    @roster 
+    @roster
   end
 
   def add_student(name, grade)
@@ -25,14 +25,10 @@ class school
     @roster[grade]
   end
 
-  def sort 
+  def sort
     @roster.each do |key, value|
       value.sort!
     end
   end
 
 end
-  
-
-  
-
